@@ -1,0 +1,114 @@
+@media screen and (min-width: 768px) {
+    .container {
+      max-width: 768px;
+      
+    }
+    
+    /*-----------TABLET-What are we doing----------*/
+
+.second {
+  display: none;
+}
+
+
+    /*-----------TABLET-TEAM----------*/
+    
+    
+    .team {
+      padding: 72px 105px 104px 105px;
+    }
+    
+    .team-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+    
+    }
+    
+    /*-----------TABLET-CUSTOMERS----------*/
+   
+    
+    .customers-list {
+      padding-bottom: 96px;
+      
+    }
+  
+    .team-list {
+      list-style-type: none;
+      display: flex;
+      /*gap: 24px;*/
+    
+    }
+    
+    .customers-list-item {
+      width:calc( ( 100% - 40px ) / 3 );
+     
+    }
+    
+    .customers-list-link {
+    width: 168px;
+  
+  }
+  
+  
+  /*--------TABLET-FOOTER---------*/
+
+.test {
+  display: flex;
+  align-items: baseline;
+
+}
+
+.first {
+  margin-left: 108px;
+}
+  .logo-down {
+    margin: 0 auto;
+  }
+
+.text {
+  width: 264px;
+
+}
+
+.media-container {
+  margin-left: 24px;
+}
+
+.media-title {
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+
+.media-list {
+  gap: 24px;
+
+}
+
+.subscribe-container {
+  width: 453px;
+  height: 80px;
+  margin-left: 140px;
+
+}
+
+.subscribe-title {
+  display: flex;
+  flex-wrap: nowrap;
+  
+}
+
+
+.subscribe-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+   margin-bottom: 16px;
+}
+
+.subscribe-btn {
+  margin-top: 0;
+  margin-left: 24px;
+}
+  
+  }

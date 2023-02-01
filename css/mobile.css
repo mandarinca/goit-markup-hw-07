@@ -1,0 +1,12 @@
+@media screen and (max-width: 767px) {
+    .container {
+      max-width: 430px;
+    }
+
+    /*-----------What are we doing----------*/
+
+    .second {
+        display: none;
+    }
+ }
+   

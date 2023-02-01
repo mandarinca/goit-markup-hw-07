@@ -1,0 +1,132 @@
+@media screen and (min-width: 1200px) {
+    .container {
+      max-width: 1115px;
+    
+    }
+
+
+    /*-----------DESKTOP-What are we doing----------*/
+    .second {
+      display: block;
+      padding-bottom: 120px;
+  }
+    
+      
+      .title-two {
+        color: var(--brand-color);
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 1.1;
+        margin-top: 240px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 72px;
+        margin-top: 120px;
+        
+      }
+      
+      .pct-doing {
+        flex-basis:calc((100% - 48px) / 3);
+        
+      }
+
+      /*-----------DESKTOP-TEAM----------*/
+
+      .team-item {
+        width: calc((100% - 72px) / 4);
+      }
+
+
+  
+  /*-----------DESKTOP-CUSTOMERS----------*/
+  
+    .customers-list {
+      flex-wrap: nowrap;
+      gap: 24px;
+      padding-bottom: 120px;
+     
+    }
+    
+    .customers-list-link { 
+    width: 168px;
+    
+  }
+  
+  /*--------DESKTOP-FOOTER---------*/
+  
+  
+  .the-end {
+    display: flex;
+  flex-grow: 1;
+  }
+
+
+.text {
+  width: 264px;
+  margin-right: 120px;
+
+}
+
+.test {
+  display: flex;
+  align-items: baseline;
+
+}
+
+.media-container {
+  width: 208px;
+  height: 80px;
+}
+
+.media-list {
+  gap: 24px;
+  margin-bottom: 32px;
+  margin-right: 80px;
+}
+
+
+.media-list-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-container {
+  justify-content: center;
+  width: 453px;
+  height: 80px;
+  margin-left: 80px;
+}
+
+.subscribe-wrapper {
+  display: flex;
+  justify-content: center; 
+  
+}
+
+
+
+/*.subscribe-form-field {*/
+
+
+.subscribe-form-input {
+  width: 264px;
+}
+
+
+
+.subscribe-form-btn-wrapper {
+  justify-content: center;
+  column-gap: 10px;
+  
+  
+}
+.subscribe-btn {
+  display: flex;
+ margin-left: 24px;
+ padding: 8px 24px;
+ gap: 16px;
+
+}
+
+}

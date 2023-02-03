@@ -3,6 +3,34 @@
       max-width: 430px;
     }
 
+
+
+
+    /*------DARK-----*/
+
+    .dark {
+      background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+    ),
+  url('../images/pct-mob/Dark-bg-mob.jpg');
+  
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .dark {
+        background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+      ),
+    url('../images/pct-mob/Dark-bg-mob-2x.jpg');
+  }
+  }
+
+
     /*-----------What are we doing----------*/
 
     .second {

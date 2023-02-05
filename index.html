@@ -39,6 +39,64 @@
           <a href="tel:+110001111111" class="tel-mail">+11 (000) 111-11-11</a>
         </li>
       </ul>
+      <button type="button" class="menu-open" data-menu-open is-hidden>
+          <svg class="menu-open-icon" width="30" height="19">
+            <use href="./images/icon.svg#icon-charm_menu-hamburger-1"></use>
+          </svg>
+        </button> 
+      </div>
+      <div class="mob-menu is-hidden" data-menu>
+        <button type="button" class="mob-close-btn" data-menu-close>
+          <svg class="cross-mob-close-button-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use> 
+          </svg>
+      </button>
+      <ul class="mob-menu-list">
+        <li class="mob-menu-item"><a href="./index.html" class="mob-menu-link link current">Studio</a></li>
+        <li class="mob-menu-item"><a href="./portfolio.html" class="mob-menu-link link">Portofolio</a></li>
+        <li class="mob-menu-item"><a href="" class="mob-menu-link link">Contacts</a></li>
+      </ul>
+      <ul class="mob-mail-tel">
+        <li class="mob-menu-mail-tel">
+        <li class="mob-menu-mail-tel">
+          <a href="tel:+110001111111" class="mob-tel-mail mob-tel"
+          >+11 (000) 111-11-11</a>
+        </li>
+          <a href="mailto:info@devstudio.com" class="mob-tel-mail mob-mail"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+      <ul class="mob-social-list list">
+        <li class="mob-social-list-item">
+          <a class="mob-social-list-link" href="">
+            <svg class="mob-social-list-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mob-social-list-item">
+          <a class="mob-social-list-link" href="">
+            <svg class="mob-social-list-icon" width="24" height="19.5">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mob-social-list-item">
+          <a class="mob-social-list-link" href="">
+            <svg class="mob-social-list-icon" width="20" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mob-social-list-item">
+          <a class="mob-social-list-link" href="">
+            <svg class="mob-social-list-icon" width="25" height="20">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
       </div>
     </header>
     <!--Dark-->
@@ -190,9 +248,12 @@
 
           <li class="team-item">
             <img class="photo-team"
-              src="./images/photos-of-people/tom.jpg"
-              width="264"
-              alt="Tom Ford.Frontend Developer"
+            src="./images/photos-of-people/tom.jpg"
+            width="264"
+            alt="Tom Ford.Frontend Developer"
+            srcset="
+            ./images/photos-of-people/tom.jpg    1x, 
+            ./images/photos-of-people/tom-2x.jpg 2x"
             />
             <div class="team-text">
             <h3 class="name">Tom Ford</h3>
@@ -232,9 +293,12 @@
           
           <li class="team-item">
             <img class="photo-team"
-              src="./images/photos-of-people/camila.jpg"
-              width="264"
-              alt="Camila Garcia.Marketing"
+            src="./images/photos-of-people/camila.jpg"
+            width="264"
+            alt="Camila Garcia.Marketing"
+            srcset="
+            ./images/photos-of-people/camila.jpg    1x, 
+            ./images/photos-of-people/camila-2x.jpg 2x"
             />
             <div class="team-text">
             <h3 class="name">Camila Garcia</h3>
@@ -277,6 +341,9 @@
               src="./images/photos-of-people/daniel.jpg"
               width="264"
               alt="Daniel Wilson.UI Designer"
+              srcset="
+            ./images/photos-of-people/daniel.jpg    1x, 
+            ./images/photos-of-people/daniel-2x.jpg 2x"
             />
             <div class="team-text">
             <h3 class="name">Daniel Wilson</h3>
@@ -438,7 +505,7 @@
     </div>
 </div>
     </footer>
-    <!--<div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="cross-close-button-icon" width="8" height="8">
@@ -518,6 +585,7 @@
 </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script>-->
+    <script src="./js/menu.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

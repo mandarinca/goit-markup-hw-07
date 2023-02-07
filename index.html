@@ -29,19 +29,19 @@
           <li class="menu-item"><a href="" class="menu-link link">Contacts</a></li>
         </ul>
       </nav>
-      <ul class="mail-tel">
-        <li class="menu-mail">
-          <a href="mailto:info@devstudio.com" class="tel-mail"
+      <ul class="menu-tel-mail">
+        <li class="tel-mail-item">
+          <a href="mailto:info@devstudio.com" class="tel-mail-link"
             >info@devstudio.com</a
           >
         </li>
-        <li>
-          <a href="tel:+110001111111" class="tel-mail">+11 (000) 111-11-11</a>
+        <li class="tel-mail-item">
+          <a href="tel:+110001111111" class="tel-mail-link">+11 (000) 111-11-11</a>
         </li>
       </ul>
       <button type="button" class="menu-open" data-menu-open is-hidden>
           <svg class="menu-open-icon" width="30" height="19">
-            <use href="./images/icon.svg#icon-charm_menu-hamburger-1"></use>
+            <use href="./images/icons.svg#icon-hamburger"></use>
           </svg>
         </button> 
       </div>
@@ -51,17 +51,18 @@
             <use href="./images/icons.svg#icon-close-black"></use> 
           </svg>
       </button>
-      <ul class="mob-menu-list">
-        <li class="mob-menu-item"><a href="./index.html" class="mob-menu-link link current">Studio</a></li>
-        <li class="mob-menu-item"><a href="./portfolio.html" class="mob-menu-link link">Portofolio</a></li>
-        <li class="mob-menu-item"><a href="" class="mob-menu-link link">Contacts</a></li>
-      </ul>
+          <ul class="mob-menu-list">
+            <li class="mob-menu-item"><a href="./index.html" class="mob-menu-link link current">Studio</a></li>
+            <li class="mob-menu-item"><a href="./portfolio.html" class="mob-menu-link link">Portofolio</a></li>
+            <li class="mob-menu-item"><a href="" class="mob-menu-link link">Contacts</a></li>
+          </ul>
       <ul class="mob-mail-tel">
         <li class="mob-menu-mail-tel">
         <li class="mob-menu-mail-tel">
           <a href="tel:+110001111111" class="mob-tel-mail mob-tel"
           >+11 (000) 111-11-11</a>
         </li>
+        <li class="mob-menu-mail-tel">
           <a href="mailto:info@devstudio.com" class="mob-tel-mail mob-mail"
             >info@devstudio.com</a
           >
@@ -205,8 +206,11 @@
         <ul class="team-list">
           <li class="team-item">
             <img class="photo-team"
+            srcset="
+            ./images/photos-of-people/mark.jpg    1x, 
+            ./images/photos-of-people/mark-2x.jpg 2x"
               src="./images/photos-of-people/mark.jpg"
-              width="264"
+              width="264" height="260"
               alt="Mark Guererro.Produkt Designer"
              />
              <div class="team-text">
@@ -249,7 +253,7 @@
           <li class="team-item">
             <img class="photo-team"
             src="./images/photos-of-people/tom.jpg"
-            width="264"
+            width="264" height="260"
             alt="Tom Ford.Frontend Developer"
             srcset="
             ./images/photos-of-people/tom.jpg    1x, 
@@ -294,13 +298,13 @@
           <li class="team-item">
             <img class="photo-team"
             src="./images/photos-of-people/camila.jpg"
-            width="264"
+            width="264" height="260"
             alt="Camila Garcia.Marketing"
             srcset="
             ./images/photos-of-people/camila.jpg    1x, 
             ./images/photos-of-people/camila-2x.jpg 2x"
             />
-            <div class="team-text">
+            <div class="team-text camila">
             <h3 class="name">Camila Garcia</h3>
             <p class="position">Marketing</p>
           <ul class="social-list list">
@@ -339,7 +343,7 @@
           <li class="team-item">
             <img class="photo-team"
               src="./images/photos-of-people/daniel.jpg"
-              width="264"
+              width="264" height="260"
               alt="Daniel Wilson.UI Designer"
               srcset="
             ./images/photos-of-people/daniel.jpg    1x, 

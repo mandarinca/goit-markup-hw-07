@@ -269,7 +269,6 @@
   .media-list {
     display: flex;
     gap: 24px;
-    margin-bottom: 32px;
     margin-right: 80px;
   }
 
@@ -277,6 +276,7 @@
     justify-content: center;
     width: 453px;
     height: 80px;
+   
  
   }
   

@@ -630,6 +630,9 @@ padding: 100px 0;
 margin: 0 auto;
 
 }
+.first, .media-container {
+margin-bottom: 72px;
+}
 
 .logo-down {
   color: #4d5ae5;
@@ -653,8 +656,8 @@ margin: 0 auto;
   line-height: 1.6;
   width: 268px;
   margin: 0 auto;
-  margin-top: 16px;
-  margin-bottom: 72px;
+  padding-top: 16px;
+
 
 }
 
@@ -664,14 +667,13 @@ margin: 0 auto;
   font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
-margin-bottom: 16px;
+padding-bottom: 16px;
 }
 
 .media-list {
   display: flex;
   justify-content: center;
   gap: 16px;
-  margin-bottom: 72px;
  
 }
 
@@ -704,7 +706,7 @@ transition: background-color var(--transition-duration) var(--animation-timing-f
 font-size: 16px;
 line-height: 1.6;
 text-align: center;
-margin-bottom: 16px;
+padding-bottom: 16px;
 
 }
 

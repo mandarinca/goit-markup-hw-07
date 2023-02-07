@@ -207,7 +207,7 @@ gap: 24px;
 }
 
 .text {
-width: 264px;
+max-width: 264px;
 
 }
 
@@ -219,7 +219,7 @@ flex-wrap: nowrap;
 
 
 .subscribe-container {
-width: 453px;
+max-width: 453px;
 height: 80px;
 margin-left: 140px;
 

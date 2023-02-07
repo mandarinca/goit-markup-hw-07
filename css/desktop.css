@@ -136,7 +136,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 264px;
+      max-width: 264px;
       height: 112px;
       background: #F4F4FD;
       border-radius: 4px;
@@ -158,7 +158,7 @@
     
       
       .work-item { 
-        width: 264px;
+        max-width: 264px;
         flex-basis:calc(( 100% - 72px ) / 4);
       }
 
@@ -221,7 +221,7 @@
     }
     
     .customers-list-link { 
-      width: 168px;
+      max-width: 168px;
       
     }
     
@@ -246,7 +246,7 @@
     color: #e7e9fc;
     font-size: 16px;
     line-height: 1.6;
-    width: 264px;
+    max-width: 264px;
    
   }
   
@@ -274,7 +274,7 @@
 
   .subscribe-container {
     justify-content: center;
-    width: 453px;
+    max-width: 453px;
     height: 80px;
    
  
@@ -292,7 +292,7 @@ text-align: left;
   }
   
   .subscribe-form-input {
-    width: 264px;
+    max-width: 264px;
   }
   
 

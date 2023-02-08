@@ -65,7 +65,7 @@ background-color: #404bbf;
 .menu-tel-mail {
   list-style-type: none;
 display: block;
-margin-left: 118px;
+padding-left: 118px;
  
 }
 
@@ -139,12 +139,9 @@ text-align: left;
 
 }
 
-
 .work-item {
   width:calc(( 100% - 24px ) / 2 );
 }
-
-
 
   /*-----------TABLET-What are we doing----------*/
 
@@ -201,16 +198,6 @@ gap: 24px;
 
 }
 
-
-.logo-down {
-  margin: 0 auto;
-}
-
-.text {
-max-width: 264px;
-
-}
-
 .media-title {
 display: flex;
 flex-wrap: nowrap;
@@ -221,7 +208,7 @@ flex-wrap: nowrap;
 .subscribe-container {
 max-width: 453px;
 height: 80px;
-margin-left: 140px;
+
 
 }
 
@@ -231,11 +218,10 @@ flex-wrap: nowrap;
 
 }
 
-
 .subscribe-wrapper {
 display: flex;
 flex-wrap: nowrap;
- margin-bottom: 16px;
+margin-bottom: 16px;
 }
 
 .subscribe-btn {

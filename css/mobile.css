@@ -113,8 +113,9 @@ header {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   overflow: auto;
+  padding: 40px;
+  margin-bottom: auto;
 }
 
 .mob-close-btn {
@@ -152,7 +153,6 @@ header {
 .mob-menu-list {
   list-style-type: none;
   padding-top: 80px;
-  padding-left: 40px;
   padding-bottom: 250px;
 
 }
@@ -165,7 +165,7 @@ line-height: 1.1;
 }
 
 .mob-menu-item:not(:last-child) {
-  padding-bottom: 40px;
+  margin-bottom: 40px;
   
 }
 
@@ -185,12 +185,11 @@ line-height: 1.1;
 
 .mob-mail-tel {
   list-style-type: none;
-  margin-left: 40px;
   margin-bottom: 48px;
 }
 
 .mob-menu-mail-tel:not(:last-child) {
-  padding-bottom: 40px;
+  margin-bottom: 40px;
   
 }
 .mob-mail {
@@ -221,7 +220,6 @@ line-height: 1.2;
 
 .mob-social-list {
   display: flex;
-  justify-content: center;
   gap: 56px;
   list-style-type: none;
 
@@ -318,18 +316,18 @@ url('../images/pct-mob/Dark-bg-mob-2x.jpg');
 
 /*-----MOBILE-SECTION-ONE------*/
 
-.section-one {
-  list-style-type: none;
-  margin: 96px 0;
- 
+
+.features {
+  padding: 96px 0;
 }
 
-
+.section-one {
+  list-style-type: none;
+}
 .first-icon-list {
 display: none;
 
 }
-
 
 .work-titles {
  color: var(--brand-color);
@@ -350,7 +348,7 @@ display: none;
 }
 
 .work-item:not(:last-child) {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 
@@ -394,6 +392,9 @@ display: none;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
    0px 1px 1px rgba(46, 47, 66, 0.16),
    0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.team-item:not(:last-child) {
   margin-bottom: 72px;
 }
 
@@ -449,11 +450,15 @@ transition: background-color var(--transition-duration) var(--animation-timing-f
 }
 
 /*-----MOBILE-CUSTOMERS------*/
-.container > .container-2 {
+/* .container > .container-2 {
   margin: 96px 0 72px;
   
-}
+} */
 
+.customers {
+  padding: 96px 0 72px;
+
+}
 
 .title-three {
   color: var(--brand-color);
@@ -470,7 +475,7 @@ transition: background-color var(--transition-duration) var(--animation-timing-f
   row-gap: 72px;
   column-gap: 16px;
  list-style-type: none;
- padding-top: 72px;
+ margin-top: 72px;
 }
 
 .customers-list-item {
@@ -672,7 +677,7 @@ margin-bottom: 72px;
   line-height: 1.6;
   width: 268px;
   margin: 0 auto;
-  padding-top: 16px;
+  margin-top: 16px;
   text-align: left;
 }
 
@@ -682,7 +687,7 @@ margin-bottom: 72px;
   font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
-padding-bottom: 16px;
+margin-bottom: 16px;
 }
 
 .media-list {
@@ -721,7 +726,7 @@ transition: background-color var(--transition-duration) var(--animation-timing-f
 font-size: 16px;
 line-height: 1.6;
 text-align: center;
-padding-bottom: 16px;
+margin-bottom: 16px;
 
 }
 

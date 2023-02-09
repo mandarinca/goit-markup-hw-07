@@ -5,6 +5,7 @@
 
 /*--------TABLET-NAVIGATOR------*/
 
+
 .header > .container  {
 gap: 0;
 
@@ -205,10 +206,11 @@ display: none;
 
 
 .test {
-  display: flex;
-  flex-wrap: wrap;
+  gap: unset;
   row-gap: 72px;
-
+  column-gap: 24px;
+  justify-content: left;
+  padding-left: 108px;
 }
 
 .logo-down, .media-title, .subscribe-title {
@@ -225,6 +227,9 @@ height: 80px;
 .subscribe-wrapper {
 display: flex;
 flex-wrap: nowrap;
+}
+.subscribe-form-input {
+  margin-bottom: 0;
 }
 
 .subscribe-btn {

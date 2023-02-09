@@ -6,7 +6,7 @@
     /*------DESKTOP-NAVIGATOR-----*/
 
  .header {
-  padding-bottom: 0;
+  padding-bottom: 22px;
     }
 
     .header > .container {
@@ -25,7 +25,7 @@
     list-style-type: none;
     display: flex;
     gap: 40px;
-    margin-right: 332px;
+    
   
   }
   

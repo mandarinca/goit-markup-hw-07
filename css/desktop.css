@@ -5,11 +5,13 @@
 
     /*------DESKTOP-NAVIGATOR-----*/
 
+ .header {
+  padding-bottom: 0;
+    }
 
     .header > .container {
-      align-items: center;
-      gap: 76px;
-      margin-right: auto;
+      align-items: baseline;
+      gap: unset;
     }
 
   .navigator {
@@ -23,6 +25,7 @@
     list-style-type: none;
     display: flex;
     gap: 40px;
+    margin-right: 332px;
   
   }
   
@@ -163,6 +166,7 @@
         text-align: left;
         font-weight: 500;
         font-size: 20px;
+        margin-top: 8px;
         
       }
     
@@ -207,7 +211,11 @@
       }
 
       /*-----------DESKTOP-TEAM----------*/
-      
+      .team {
+      padding: 120px 0;
+      }
+
+
       .team-list {
         display: flex;
         gap: 24px;
@@ -216,6 +224,7 @@
       
       .team-item {
         width: calc((100% - 72px) / 4);
+        margin: 0;
         
       }
       .team-item:not(:last-child) {
@@ -281,7 +290,7 @@
   
   .media-list {
     display: flex;
-    gap: 24px;
+    gap: 16px;
    
   }
 
@@ -294,9 +303,14 @@
     display: flex;
   flex-wrap: nowrap;
   }
+
+  .subscribe-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    }
   
   .subscribe-form-input {
-    max-width: 264px;
+    margin-bottom: 0;
   }
   .subscribe-btn {
    margin-left: 24px;

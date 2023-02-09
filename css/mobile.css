@@ -152,8 +152,8 @@ header {
 }
 .mob-menu-list {
   list-style-type: none;
-  padding-top: 80px;
-  padding-bottom: 250px;
+  padding-top: 40px;
+  margin-bottom: auto;
 
 }
 
@@ -664,7 +664,6 @@ margin-bottom: 72px;
   line-height: 1.3;
   text-decoration: none;
   text-transform: uppercase;
-  margin-bottom: 16px;
 }
 
 .studio-down {
@@ -877,14 +876,13 @@ color: #2E2F42;
   letter-spacing: 0.02em;
 }
 
-
-
 .contact-form {
   display: flex;
   flex-direction: column;  
 }
 
 .contact-form-input {
+  padding-left: 38px;
   width: 100%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);

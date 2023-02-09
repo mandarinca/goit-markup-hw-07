@@ -141,7 +141,9 @@ text-align: left;
 .work-item {
   width:calc(( 100% - 24px ) / 2 );
 }
-
+.work-item:not(:last-child) {
+  margin: 0;
+}
   /*-----------TABLET-What are we doing----------*/
 
 .second {
@@ -151,11 +153,13 @@ display: none;
 
   /*-----------TABLET-TEAM----------*/
   
-  .team {
-    padding-bottom: 104px;
   
-  }
-  
+.team {
+  background: #F4F4FD;
+  padding: 96px 0;
+ 
+}
+
   .team-list {
     display: flex;
     flex-wrap: wrap;
@@ -164,16 +168,17 @@ display: none;
     column-gap: 24px;
   }
 
+  .team-item {
+    margin: 0;
+  }
+
   .team-item:not(:last-child) {
-    margin-bottom: 72px;
+    margin: 0;
   }
   
   
   /*-----------TABLET-CUSTOMERS----------*/
-  .customers {
-    margin: 96px 0;
-    
-  }
+
   
   .customers-list {
     column-gap: 24px;
@@ -190,21 +195,19 @@ display: none;
 } */
 /*--------TABLET-FOOTER---------*/
 
+.the-end {
+ padding: 96px 0;
+} 
 
 .first {
-  justify-self: left;
+  justify-content: unset;
 }
 
- .the-end {
-  padding: 96px 96px 108px;
-} 
 
 .test {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-gap: 72px 24px;
-justify-content: unset;
+  row-gap: 72px;
 
 }
 
@@ -222,11 +225,9 @@ height: 80px;
 .subscribe-wrapper {
 display: flex;
 flex-wrap: nowrap;
-margin-bottom: 16px;
 }
 
 .subscribe-btn {
-margin-top: 0;
 margin-left: 24px;
 }
 
